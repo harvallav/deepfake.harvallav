@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Overview</title>
+    <link rel="stylesheet" href="overview.css">
+</head>
+<body>
+    <div class="title"><h1>Overview</h1></div>
+    <div class="banner">
+        <div class="slider" style="--quantity: 10">
+            <div class="item" style="--position: 1"><img src="images/1.png" alt=""></div>
+            <div class="item" style="--position: 2"><img src="images/2.png" alt=""></div>
+            <div class="item" style="--position: 3"><img src="images/3.png" alt=""></div>
+            <div class="item" style="--position: 4"><img src="images/4.png" alt=""></div>
+            <div class="item" style="--position: 5"><img src="images/5.png" alt=""></div>
+            <div class="item" style="--position: 6"><img src="images/6.png" alt=""></div>
+            <div class="item" style="--position: 7"><img src="images/7.png" alt=""></div>
+            <div class="item" style="--position: 8"><img src="images/8.png" alt=""></div>
+            <div class="item" style="--position: 9"><img src="images/9.png" alt=""></div>
+            <div class="item" style="--position: 10"><img src="images/10.png" alt=""></div>
+        </div>
+        <div class="content">
+            <div class="model"></div>
+        </div>
+    </div>
+    
+    <main id="content">
+        <div class="me">
+            <h1>INTRO - What Are Deepfakes?</h1>
+            <p>Deepfakes are videos, pictures, or audio recordings that look or sound real but have been altered using technology. Imagine watching a video of someone saying or doing something they never actually did—this is what a deepfake can do. It uses a special kind of computer program to make these changes so convincingly that it's often hard to tell the difference between what's real and what's fake. Deepfakes are often created using artificial intelligence (AI) and machine learning techniques.</p>
+
+            <h2>How Do Deepfakes Work?</h2>
+            <p>Deepfakes are videos, images, or audio recordings that look and sound real but are actually fake. They are created using artificial intelligence (AI), which can learn to mimic a person’s face, voice, and actions.</p>
+            <p>To start, the AI needs to learn everything about the person it’s trying to imitate. It does this by analyzing lots of data—photos, videos, and audio recordings of that person. The more examples the AI sees, the better it gets at understanding how the person looks, sounds, and moves.</p>
+            <ul>
+                <li><strong>The Generator:</strong> This part of the GAN creates the fake content.</li>
+                <li><strong>The Discriminator:</strong> This part of the GAN looks at the content created by the generator and tries to figure out whether it’s real or fake.</li>
+            </ul>
+            <p>This process repeats over and over, making the fake content more convincing.</p>
+        </div>
+    </main>
+
+    <div class="timeline">
+        <div class="timeline__event animated fadeInUp delay-3s timeline__event--type1">
+          <div class="timeline__event__icon">
+            <i class="lni-cake"></i>
+          </div>
+          <div class="timeline__event__date">
+            1990
+          </div>
+          <div class="timeline__event__content">
+            <div class="timeline__event__title">
+              1990s: Early AI Processing
+            </div>
+            <div class="timeline__event__description">
+              <p>The 1990s saw foundational developments in AI and machine learning, setting the stage for deepfake technology. Innovations in image recognition and voice synthesis laid crucial groundwork for the advancements that would follow.</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="timeline__event animated fadeInUp delay-2s timeline__event--type2">
+          <div class="timeline__event__icon">
+            <i class="lni-burger"></i>
+          </div>
+          <div class="timeline__event__date">
+            2014
+          </div>
+          <div class="timeline__event__content">
+            <div class="timeline__event__title">
+              2014: GANs Invented
+            </div>
+            <div class="timeline__event__description">
+              <p>Ian Goodfellow introduced Generative Adversarial Networks (GANs), which became the backbone of deepfake technology. GANs work by having two neural networks—a generator and a discriminator—compete, enabling the creation of highly realistic fake media.</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="timeline__event animated fadeInUp delay-1s timeline__event--type3">
+          <div class="timeline__event__icon">
+            <i class="lni-slim"></i>
+          </div>
+          <div class="timeline__event__date">
+            2016
+          </div>
+          <div class="timeline__event__content">
+            <div class="timeline__event__title">
+              2016: First Deepfake Experiment
+            </div>
+            <div class="timeline__event__description">
+              <p>Early face-swapping experiments emerged, demonstrating AI’s ability to manipulate images and videos by swapping one person’s face with another.</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="timeline__event animated fadeInUp timeline__event--type1">
+          <div class="timeline__event__icon">
+            <i class="lni-cake"></i>
+          </div>
+          <div class="timeline__event__date">
+            2017
+          </div>
+          <div class="timeline__event__content">
+            <div class="timeline__event__title">
+              2017: Obama Deepfake and Reddit Community
+            </div>
+            <div class="timeline__event__description">
+              <p>In 2017, a deepfake video of former U.S. President Barack Obama went viral, showing him saying things he had never said. Around the same time, the “deepfakes” subreddit launched, providing a space where users shared celebrity deepfake content. This marked both a breakthrough in awareness of deepfakes and the start of widespread public access to deepfake creation tools.</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="timeline__event animated fadeInUp timeline__event--type1">
+          <div class="timeline__event__icon">
+            <i class="lni-cake"></i>
+          </div>
+          <div class="timeline__event__date">
+            2018
+          </div>
+          <div class="timeline__event__content">
+            <div class="timeline__event__title">
+              2018: Governmental and Political Engagement with Deepfakes
+            </div>
+            <div class="timeline__event__description">
+              <p>DARPA began investing in AI projects to detect deepfakes, aiming to counteract their potential for harm. In Belgium, the Socialist Party released a deepfake video of U.S. President Donald Trump, demonstrating deepfake technology's impact in political messaging. In India, deepfake manipulation started appearing in election campaigns, raising concerns about its effect on democracy and sparking headlines nationwide.</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="timeline__event animated fadeInUp timeline__event--type1">
+          <div class="timeline__event__icon">
+            <i class="lni-cake"></i>
+          </div>
+          <div class="timeline__event__date">
+            2019
+          </div>
+          <div class="timeline__event__content">
+            <div class="timeline__event__title">
+              2019: Deepfake Detection Challenge and U.S. Legal Actions
+            </div>
+            <div class="timeline__event__description">
+              <p>Facebook, Microsoft, and others launched the Deepfake Detection Challenge to encourage AI tools for identifying manipulated media. In the same year, the U.S. introduced the Malicious Deep Fake Prohibition Act to criminalize harmful deepfake creation and distribution.</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="timeline__event animated fadeInUp timeline__event--type1">
+          <div class="timeline__event__icon">
+            <i class="lni-cake"></i>
+          </div>
+          <div class="timeline__event__date">
+            2019-2021
+          </div>
+          <div class="timeline__event__content">
+            <div class="timeline__event__title">
+              2019-2021: Awareness Campaigns in India
+            </div>
+            <div class="timeline__event__description">
+              <p>As deepfake content spread, India launched awareness campaigns to educate the public on identifying deepfakes and understanding their dangers.</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="timeline__event animated fadeInUp timeline__event--type1">
+          <div class="timeline__event__icon">
+            <i class="lni-cake"></i>
+          </div>
+          <div class="timeline__event__date">
+            2020
+          </div>
+          <div class="timeline__event__content">
+            <div class="timeline__event__title">
+              2020: Political Misinformation and Financial Scams
+            </div>
+            <div class="timeline__event__description">
+              <p>The use of deepfakes to spread misinformation surged, especially during elections. Additionally, deepfake technology facilitated financial fraud, as criminals used AI-generated voice to impersonate a CEO and steal funds.</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="timeline__event animated fadeInUp timeline__event--type1">
+          <div class="timeline__event__icon">
+            <i class="lni-cake"></i>
+          </div>
+          <div class="timeline__event__date">
+            2020
+          </div>
+          <div class="timeline__event__content">
+            <div class="timeline__event__title">
+              2020: Deepfake Video During Indian Elections
+            </div>
+            <div class="timeline__event__description">
+              <p>In India’s 2020 elections, deepfake videos were used to spread false endorsements and manipulate voters. This sparked widespread concern over the technology’s potential impact on democratic processes.</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="timeline__event animated fadeInUp timeline__event--type1">
+          <div class="timeline__event__icon">
+            <i class="lni-cake"></i>
+          </div>
+          <div class="timeline__event__date">
+            2021
+          </div>
+          <div class="timeline__event__content">
+            <div class="timeline__event__title">
+              2021: Indian Government Detection Initiatives
+            </div>
+            <div class="timeline__event__description">
+              <p>The Indian government invested in AI-powered tools to combat deepfake content, aiming to curb misinformation.</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="timeline__event animated fadeInUp timeline__event--type1">
+          <div class="timeline__event__icon">
+            <i class="lni-cake"></i>
+          </div>
+          <div class="timeline__event__date">
+            2022
+          </div>
+          <div class="timeline__event__content">
+            <div class="timeline__event__title">
+              2022: Legal Action in India
+            </div>
+            <div class="timeline__event__description">
+              <p>India recorded its first legal case related to deepfakes, signaling steps towards regulating the use of manipulated media for malicious purposes.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="container">
+        <div class="box">
+            <h2>The Media's Role in Amplifying Deepfakes</h2>
+            <p>Since the media isn’t focused on spreading the truth these days and targets sensationalism – the “WOW” factor – it’s easy to manipulate media using deepfake technology. Visually compelling false information content goes viral on social media. Deepfakes of celebrities are created which affects their image and perception.</p>
+        </div>
+        <div class="box">
+            <h2>Impact on India’s Religious Landscape</h2>
+            <p>Larger than that, India’s colorful religious landscape is often attacked by deepfake technology – misrepresentations and distasteful depictions of religious leaders has offended nearly every religion and belief, causing backlash. This creates misunderstandings and tense conflicts especially in areas where people don’t have digital literacy.</p>
+        </div>
+        <div class="box">
+            <h2>Political Manipulation through Deepfakes</h2>
+            <p>This fake information and manipulation also has an impact on the political landscape of India. Misrepresentation of political personalities and figures impacts the process of elections and also the public perception of parties and candidates. This affects the legitimacy and reliability of media too.</p>
+        </div>
+        <div class="box">
+            <h2>Real-World Consequences of Deepfake Videos</h2>
+            <p>In 2020, a communal clash was caused in Delhi when a deepfake video of a religious leader making communal statements went viral. It was debunked but the damage was already done. During the 2020-21 farmer protests in India, deepfaked videos of protest leaders saying incendiary statements about the government were made to make the movement less legitimate and create confusion in people.</p>
+        </div>
+        <div class="box">
+            <h2>Impact on the Sikh Community</h2>
+            <p>Around the same time, deepfake videos made to misrepresent Sikh Gurus in offensive contexts were made to convey fabricated and demeaning messages. These videos were perceived by the Sikh diaspora as an attack and were condemned immediately. This incident highlighted the need for stricter laws to control the usage of AI.</p>
+        </div>
+        <div class="box">
+            <h2>Harassment of Women via Deepfake Technology</h2>
+            <p>Women being harassed using deepfake technology has been a phenomenon ever since the technology came to life. Instances of pornographic content are being heard of almost daily – like the case of Rana Ayyub. This makes one think that fake content causes real damage to women.</p>
+        </div>
+
+        <!-- Continue the rest of the timeline events... -->
+    </div>
+
+</body>
+</html>

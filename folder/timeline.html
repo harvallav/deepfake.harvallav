@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepfake Detection Guide</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>How to Detect Deepfake Media</h1>
+        <div class="face-container">
+            <div class="face">
+                <img src="face.jpg" alt="Face Example" class="face-img">
+                <div class="highlight" id="cheeks"></div>
+                <div class="highlight" id="eyes"></div>
+                <div class="highlight" id="glasses"></div>
+            </div>
+        </div>
+
+        <div class="details">
+            <h2>Signs of Deepfake Manipulations:</h2>
+            <ul>
+                <li>Look for smooth or inconsistent skin on the face.</li>
+                <li>Check the shadows around eyes and eyebrows.</li>
+                <li>Pay attention to the glare on glasses.</li>
+                <li>Look for unnatural lip movements, blinking, and facial moles.</li>
+            </ul>
+        </div>
+
+        <div class="tools">
+            <h2>Tools for Detection:</h2>
+            <button class="tool-btn" id="tool1">Exiftool</button>
+            <button class="tool-btn" id="tool2">FaceForensics++</button>
+            <button class="tool-btn" id="tool3">Deepware Scanner</button>
+            <button class="tool-btn" id="tool4">Microsoft Video Authenticator</button>
+
+            <div id="tool-info" class="tool-info"></div>
+        </div>
+
+        <div class="alert">
+            <button id="trigger-alert" class="alert-btn">Emotional Trigger Alert</button>
+            <div id="alert-message" class="alert-message"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
